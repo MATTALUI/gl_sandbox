@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* min-height: 100vh; */
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0.69);
+  border: 5px solid rgba(0, 0, 0, 0.85);
+  border-radius: 1rem;
+  width: 669px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+}
